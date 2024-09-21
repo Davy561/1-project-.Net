@@ -10,10 +10,12 @@ namespace Códigos.Models
         public string? Nome { get; set; }
         public int Idade { get; set; }
 
+        public double Altura { get; set;}
+
 
     public void Apresentar()
         { 
-            Console.WriteLine($"Olá meu nome é {Nome}, tenho a idade de {Idade} anos");
+            Console.WriteLine($"Olá meu nome é {Nome}, tenho a idade de {Idade} anos, e minha altura é de {Altura}");
         }
     }
 }
