@@ -12,3 +12,4 @@ C:\Users\pesso.000\Desktop\Códigos C#\dio.me\obj\Debug\net8.0\refint\dio.me.dll
 C:\Users\pesso.000\Desktop\Códigos C#\dio.me\obj\Debug\net8.0\dio.me.pdb
 C:\Users\pesso.000\Desktop\Códigos C#\dio.me\obj\Debug\net8.0\dio.me.genruntimeconfig.cache
 C:\Users\pesso.000\Desktop\Códigos C#\dio.me\obj\Debug\net8.0\ref\dio.me.dll
+C:\Users\pesso.000\Desktop\Códigos C#\dio.me\obj\Debug\net8.0\dio.me.sourcelink.json
