@@ -1,5 +1,14 @@
 ﻿using Códigos.Models;
 
+string apresentacao= "Olá seja bem vindo"; //Variavel
+int quantidade = 1;// Variavel
+double altura = 1.80;
+
+
+
+
+
+
 Pessoa pessoa1 = new Pessoa();
 
 pessoa1.Nome = "Davy";
