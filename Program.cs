@@ -8,7 +8,7 @@ bool condicao = true;
 
 Console.WriteLine(apresentacao);
 Console.WriteLine("Valor da quantidade: "+quantidade);  
-Console.WriteLine("Valor da altura:" + altura.ToString("0.00"));
+Console.WriteLine("Valor da altura:" + altura.ToString("0.00"));//.ToString("0,00") fazer o tratamento dos dados e indicar quais casas decimais devem ser usadas
 Console.WriteLine("Valor do preço: "+ "R$"+preco);
 Console.WriteLine("Valor da condição: "+condicao);
 
