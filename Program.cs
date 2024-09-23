@@ -4,8 +4,13 @@ string apresentacao= "Olá seja bem vindo"; //Variavel
 int quantidade = 1;// Variavel
 double altura = 1.80;
 decimal preco = 1.80m;
+bool condicao = true;
 
-
+Console.WriteLine(apresentacao);
+Console.WriteLine("Valor da quantidade: "+quantidade);  
+Console.WriteLine("Valor da altura:" + altura);
+Console.WriteLine("Valor do preço: "+ "R$"+preco);
+Console.WriteLine("Valor da condição: "+condicao);
 
 
 
