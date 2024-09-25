@@ -11,7 +11,9 @@ Console.WriteLine("Valor da quantidade: "+quantidade);
 Console.WriteLine("Valor da altura:" + altura.ToString("0.00"));//.ToString("0,00") fazer o tratamento dos dados e indicar quais casas decimais devem ser usadas
 Console.WriteLine("Valor do preço: "+ "R$"+preco);
 Console.WriteLine("Valor da condição: "+condicao);
-
+DateTime dataAtual = DateTime.Now; // Função DateTime mostrar a hora e data em tempo real ---
+Console.WriteLine(dataAtual);
+//Variavel é um pedaço da memória que você pode amarzenar um valor durante a execução de um código
 
 
 Pessoa pessoa1 = new Pessoa();
