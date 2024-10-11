@@ -1,12 +1,30 @@
 ﻿using Códigos.Models;
 
 
-string a = "15 -";
-//int b = 0;
-int.TryParse(a, out int b);
+int quantidade_estoque = 10;
+int quantidade_venda = 4;
+bool respostavenda = quantidade_estoque >= quantidade_venda;
 
-Console.WriteLine(b);
-Console.WriteLine("Teste sucesso");
+Console.WriteLine($"quantidade_estoque: {quantidade_estoque}");
+Console.WriteLine($"quantidade_estoque: {quantidade_venda}");
+Console.WriteLine($"Posso realizar a venda ? {respostavenda}");
+
+if(respostavenda){
+    Console.WriteLine("A venda foi realizada com sucesso");
+}
+else{
+    Console.WriteLine("Desculpe mais a venda foi mal sucedida");
+}
+
+
+
+
+//string a = "15 -";
+//int b = 0;
+//int.TryParse(a, out int b);
+
+//Console.WriteLine(b);
+//Console.WriteLine("Teste sucesso");
 
 
 

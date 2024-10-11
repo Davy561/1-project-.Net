@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dio.me")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6c21d77cddea0b9a34baa82a27e30fad2df0f11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51f4b815dad64a67b5e4c4a7b1d6d75ebb15f893")]
 [assembly: System.Reflection.AssemblyProductAttribute("dio.me")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dio.me")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
