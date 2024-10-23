@@ -1,20 +1,192 @@
 ﻿using Códigos.Models;
 
 
-int quantidade_estoque = 10;
-int quantidade_venda = 4;
-bool respostavenda = quantidade_estoque >= quantidade_venda;
+Calculadora calc = new Calculadora();
 
-Console.WriteLine($"quantidade_estoque: {quantidade_estoque}");
-Console.WriteLine($"quantidade_estoque: {quantidade_venda}");
-Console.WriteLine($"Posso realizar a venda ? {respostavenda}");
+int numero = 10;
 
-if(respostavenda){
-    Console.WriteLine("A venda foi realizada com sucesso");
+Console.WriteLine($"{numero} x 1 = {numero * 1}");
+
+for(int contador = 0; contador <= 10; contador++){
+    Console.WriteLine($"contador {contador}");
 }
-else{
-    Console.WriteLine("Desculpe mais a venda foi mal sucedida");
-}
+
+
+
+
+
+
+
+
+//int numeroincremento = 1;
+
+//Console.WriteLine($"O número com incrento {numeroincremento}");
+//numeroincremento++;
+
+//Console.WriteLine($"O número com incrento {numeroincremento}");
+//int decremento = 20;
+//decremento--;
+//Console.WriteLine($"Escreva esse núemro como decremento de {decremento}");
+//calc.Raizquadrada(20);
+
+
+
+//calc.Somar(5, 5);
+//calc.Subtração(50, 60);
+//calc.Divisão(20, 10);
+//calc.Multiplicação(5, 20);
+//calc.Potencia(3, 3);
+//calc.Coseno(30);
+//calc.Seno(40);
+//calc.Tangente(50);
+
+
+
+
+
+
+
+//bool choveu = false;
+//bool estatarde = true;
+
+//if(!choveu && !estatarde){
+//    Console.WriteLine("Vou pedalar!!");
+//}
+//else{
+//    Console.WriteLine("Vou pedalar outro dia!!");
+//}
+
+
+
+
+
+
+//bool ehMaiorDeIdade = true;
+//bool possuiAutorizacaoDoResponsavel = false;
+
+//operador and && bool possuiPresencaMinima = true;
+//double media = 7.5;
+
+
+//if(possuiPresencaMinima && media >= 7){
+//    Console.WriteLine("Aluno aprovado");
+//}
+//else{
+//    Console.WriteLine("Aluno Reprovado");
+//}
+
+
+
+
+
+
+
+
+//Operador OR || if(ehMaiorDeIdade || possuiAutorizacaoDoResponsavel){ // A varíavel OR ou verifica se uma das alternativas é verdadeira se for continua a validação ||
+//    Console.WriteLine("Entrada liberada");
+//}
+//else{
+//    Console.WriteLine("Entrada não liberada");
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Console.WriteLine("Digite uma letra");
+//string letra = Console.ReadLine();
+
+//switch(letra)
+//{
+//    case "a":
+//    case "e":
+//    case "i":
+//    case "o":
+//    case "u":
+//         Console.WriteLine("Vogal");
+//         break;
+
+//    default:
+//        Console.WriteLine("Não é uma vogal");
+//        break;
+//}
+
+
+
+
+
+
+
+
+//if( letra == "a" || 
+    //letra == "e" ||
+    //letra == "i" ||
+    //letra == "o" ||
+    //letra == "u")
+    //{
+    //    Console.WriteLine("Vogal");
+    //}
+//else{
+//    Console.WriteLine("Não é vogal");
+//}
+//if(letra == "a")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else if(letra == "e")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else if (letra == "i")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else if (letra == "o")
+//{
+//    Console.WriteLine("Vogal");
+//}
+//else if (letra == "u")
+//{
+//  Console.WriteLine("Vogal");
+//}
+
+
+
+
+
+
+
+
+
+
+//int quantidade_estoque = 10;
+//int quantidade_venda = 0;
+//bool respostavenda = quantidade_venda > 0 && quantidade_estoque >= quantidade_venda;
+
+//Console.WriteLine($"quantidade_estoque: {quantidade_estoque}");
+//Console.WriteLine($"quantidade_estoque: {quantidade_venda}");
+//Console.WriteLine($"Posso realizar a venda ? {respostavenda}");
+
+//if(quantidade_venda == 0)
+//{
+//    Console.WriteLine("Venda inválida");
+//}
+
+//else if(respostavenda){
+//    Console.WriteLine("A venda foi realizada com sucesso");
+//}
+//else{
+//    Console.WriteLine("Desculpe mais a venda foi mal sucedida");
+//}
 
 
 
